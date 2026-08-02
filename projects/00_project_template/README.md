@@ -95,3 +95,4 @@ All scripts are organized sequentially:
 - Git/GitHub
 - Clinical research principles
 - Good Clinical Practice (GCP)
+
