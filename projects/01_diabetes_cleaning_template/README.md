@@ -76,6 +76,7 @@ MODEL EVALUATION
    |
    v
 VISUALIZATION & REPORTING
+```
 Each stage was implemented using independent R scripts so the workflow can be reviewed, reproduced and audited.
 
 Data Quality & Cleaning
