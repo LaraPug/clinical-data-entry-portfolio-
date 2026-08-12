@@ -188,17 +188,17 @@ The selected classification threshold produced higher specificity than sensitivi
 
 Model Visualizations
 ROC Curve
-![ROC Curve](https://raw.githubusercontent.com/LaraPug/clinical-data-entry-portfolio-/main/outputs/figures/roc_curve_final_model.png)
+![ROC Curve](https://github.com/LaraPug/clinical-data-entry-portfolio-/raw/refs/heads/main/outputs/figures/roc_curve_final_model.png)
 The ROC curve evaluates model discrimination across different classification thresholds.
 
 AUC = 0.6524
 
 Forest Plot - Odds Ratios
-![Forest Plot](https://raw.githubusercontent.com/LaraPug/clinical-data-entry-portfolio-/main/outputs/figures/forest_plot_final_model.png)
+![Forest Plot](https://github.com/LaraPug/clinical-data-entry-portfolio-/raw/refs/heads/main/outputs/figures/forest_plot_final_model.png)
 The forest plot summarizes the estimated odds ratios and 95% confidence intervals for predictors included in the final logistic regression model.
 
 Calibration Plot
-![Calibration Plot](https://raw.githubusercontent.com/LaraPug/clinical-data-entry-portfolio-/main/outputs/figures/calibration_plot_final_model.png)
+![Calibration Plot](https://github.com/LaraPug/clinical-data-entry-portfolio-/raw/refs/heads/main/outputs/figures/calibration_plot_final_model.png)
 The calibration plot compares predicted probabilities with observed readmission rates across probability groups.
 
 The model showed generally reasonable agreement between predicted and observed probabilities, although some deviation was present at the lower and upper probability ranges.
