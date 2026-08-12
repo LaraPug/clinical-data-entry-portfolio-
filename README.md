@@ -170,6 +170,7 @@ The project README contains the complete methodology, data quality assessment, s
 | Clinical Trials Landscape Analysis  | Clinical trial registry data analysis                           | Planned       |
 | Electronic Data Capture Simulation  | Clinical database and EDC validation workflow                   | Planned       |
 
+```
 clinical-data-entry-portfolio/
 │
 ├── datasets/
@@ -197,7 +198,7 @@ clinical-data-entry-portfolio/
 │       └── model_performance.csv
 │
 └── README.md
-
+```
 Reproducibility & Documentation
 
 The projects in this repository are designed around principles of:
@@ -236,49 +237,49 @@ Data → Quality → Validation → Documentation → Analysis → Interpretatio
 
 Examples of quality procedures implemented include:
 
-Missingness assessment
-Identifier validation
-Duplicate detection
-Variable class checks
-Numeric range checks
-Categorical validation
-Invalid record identification
-Cleaning decision documentation
-Quality control summaries
+- Missingness assessment
+- Identifier validation
+- Duplicate detection
+- Variable class checks
+- Numeric range checks
+- Categorical validation
+- Invalid record identification
+- Cleaning decision documentation
+- Quality control summaries
 
 This approach reflects the importance of data integrity and traceability in clinical research workflows.
 
 Limitations
-
 The analytical projects in this repository are intended for portfolio and educational purposes, not for clinical decision-making.
 
 Depending on the dataset and analysis, limitations may include:
 
-Retrospective observational data
-Potential selection bias
-Potential measurement bias
-Missing data
-Class imbalance
-Lack of external validation
-Lack of prospective validation
-Moderate model discrimination
-Association does not imply causation
-Career Focus
+- Retrospective observational data
+- Potential selection bias
+- Potential measurement bias
+- Missing data
+- Class imbalance
+- Lack of external validation
+- Lack of prospective validation
+- Moderate model discrimination
+- Association does not imply causation
+- Career Focus
 
 I am particularly interested in opportunities involving:
-
-Clinical Data Management
-Clinical Data Entry
-Data Quality & Validation
-Clinical Research
-Clinical Research Operations
-Biomedical Data Analysis
+- Clinical Data Management
+- Clinical Data Entry
+- Data Quality & Validation
+- Clinical Research
+- Clinical Research Operations
+- Biomedical Data Analysis
 
 I am especially interested in roles where my background in Biochemistry can be combined with structured clinical data workflows, quality control, and analytical tools.
 
 Contact
 Lara Pugnaloni
+
 Biochemistry | Clinical Data | Data Quality | Clinical Research
 
 LinkedIn: https://www.linkedin.com/in/lara-pugnaloni-aa813329a/
+
 GitHub: LaraPug
