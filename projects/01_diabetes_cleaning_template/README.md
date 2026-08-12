@@ -95,10 +95,10 @@ These values were standardized to NA for downstream analysis.
 
 
 Highly incomplete variables were documented rather than automatically imputed.
--->This approach preserves transparency and prevents introducing unsupported assumptions into the dataset.
+This approach preserves transparency and prevents introducing unsupported assumptions into the dataset.
 
 Identifier Quality Control
--->Identifier integrity was assessed as part of the quality control workflow.
+Identifier integrity was assessed as part of the quality control workflow.
 
 | QC check                |  Result |
 | ----------------------- | ------: |
@@ -113,15 +113,15 @@ A distinction was maintained between encounter-level records and patient-level i
 Additional Quality Control
 The project also includes:
 
--Variable class validation
--Numeric range checks
--Categorical summaries
--Invalid gender records
--Medical specialty summaries
--Missingness summaries
--Cleaning decisions
--Data review documentation
--Statistical Analysis
+- Variable class validation
+- Numeric range checks
+- Categorical summaries
+- Invalid gender records
+- Medical specialty summaries
+- Missingness summaries
+- Cleaning decisions
+- Data review documentation
+- Statistical Analysis
 
 A multivariable logistic regression model was developed to evaluate factors associated with hospital readmission.
 
@@ -139,16 +139,16 @@ The resulting binary outcome was used for the statistical model.
 Predictors
 The final model included:
 
--Age
--Insulin treatment
--Prior inpatient utilization
--Emergency visits
--Outpatient visits
--Number of diagnoses
--Length of hospital stay
--Number of medications
--Number of laboratory procedures
--Key Statistical Findings
+- Age
+- Insulin treatment
+- Prior inpatient utilization
+- Emergency visits
+- Outpatient visits
+- Number of diagnoses
+- Length of hospital stay
+- Number of medications
+- Number of laboratory procedures
+- Key Statistical Findings
 
 Prior inpatient utilization showed one of the strongest associations with readmission.
 
@@ -289,48 +289,48 @@ data_validation_plan.md
 Defines validation checks used to assess data quality and consistency.
 
 Skills Demonstrated
-Clinical Data
-Clinical dataset handling
-Data cleaning
-Data validation
-Data quality control
-Missing data assessment
-Identifier checks
-Duplicate detection
-Categorical and numerical QC
-Documentation of cleaning decisions
+- Clinical Data
+- Clinical dataset handling
+- Data cleaning
+- Data validation
+- Data quality control
+- Missing data assessment
+- Identifier checks
+- Duplicate detection
+- Categorical and numerical QC
+- Documentation of cleaning decisions
 Statistical Analysis
-Logistic regression
-Odds ratios
-Confidence intervals
-P-values
-ROC analysis
-AUC
-Sensitivity and specificity
-Predictive values
-Calibration assessment
+- Logistic regression
+- Odds ratios
+- Confidence intervals
+- P-values
+- ROC analysis
+- AUC
+- Sensitivity and specificity
+- Predictive values
+- Calibration assessment
 Technical Skills
-R
-tidyverse
-ggplot2
-Reproducible scripting
-CSV data processing
-Git
-GitHub
-Version-controlled workflows
-Limitations
+- R
+- tidyverse
+- ggplot2
+- Reproducible scripting
+- CSV data processing
+- Git
+- GitHub
+- Version-controlled workflows
 
+Limitations
 This analysis is intended as a portfolio demonstration rather than a clinical prediction tool.
 
 Important limitations include:
 
--Retrospective observational data
--Potential selection and measurement bias
--Class imbalance between outcome categories
--Moderate model discrimination
--No external validation cohort
--No prospective validation
--Statistical association does not imply causation
+- Retrospective observational data
+- Potential selection and measurement bias
+- Class imbalance between outcome categories
+- Moderate model discrimination
+- No external validation cohort
+- No prospective validation
+- Statistical association does not imply causation
 
 These limitations should be considered before interpreting the model for clinical decision-making.
 
@@ -342,12 +342,12 @@ Import -> Clean -> Validate -> Document -> Analyze -> Visualize -> Report
 
 The emphasis is on:
 
--Data quality
--Traceability
--Reproducibility
--Documentation
--Statistical interpretation
--Structured clinical data workflows
+- Data quality
+- Traceability
+- Reproducibility
+- Documentation
+- Statistical interpretation
+- Structured clinical data workflows
 
 Author
 Lara Pugnaloni
