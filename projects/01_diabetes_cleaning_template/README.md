@@ -95,12 +95,10 @@ These values were standardized to NA for downstream analysis.
 
 
 Highly incomplete variables were documented rather than automatically imputed.
-
-This approach preserves transparency and prevents introducing unsupported assumptions into the dataset.
+-->This approach preserves transparency and prevents introducing unsupported assumptions into the dataset.
 
 Identifier Quality Control
-
-Identifier integrity was assessed as part of the quality control workflow.
+-->Identifier integrity was assessed as part of the quality control workflow.
 
 | QC check                |  Result |
 | ----------------------- | ------: |
@@ -113,23 +111,21 @@ Identifier integrity was assessed as part of the quality control workflow.
 A distinction was maintained between encounter-level records and patient-level identifiers, since a single patient can have multiple hospital encounters.
 
 Additional Quality Control
-
 The project also includes:
 
-Variable class validation
-Numeric range checks
-Categorical summaries
-Invalid gender records
-Medical specialty summaries
-Missingness summaries
-Cleaning decisions
-Data review documentation
-Statistical Analysis
+-Variable class validation
+-Numeric range checks
+-Categorical summaries
+-Invalid gender records
+-Medical specialty summaries
+-Missingness summaries
+-Cleaning decisions
+-Data review documentation
+-Statistical Analysis
 
 A multivariable logistic regression model was developed to evaluate factors associated with hospital readmission.
 
 Outcome
-
 The original readmission variable was transformed into a binary outcome:
 
 | Original outcome | Binary outcome |
@@ -141,19 +137,18 @@ The original readmission variable was transformed into a binary outcome:
 The resulting binary outcome was used for the statistical model.
 
 Predictors
-
 The final model included:
 
-Age
-Insulin treatment
-Prior inpatient utilization
-Emergency visits
-Outpatient visits
-Number of diagnoses
-Length of hospital stay
-Number of medications
-Number of laboratory procedures
-Key Statistical Findings
+-Age
+-Insulin treatment
+-Prior inpatient utilization
+-Emergency visits
+-Outpatient visits
+-Number of diagnoses
+-Length of hospital stay
+-Number of medications
+-Number of laboratory procedures
+-Key Statistical Findings
 
 Prior inpatient utilization showed one of the strongest associations with readmission.
 
@@ -227,6 +222,7 @@ source("projects/01_diabetes_cleaning_template/scripts/07_statistical_analysis.R
 The analysis generates reproducible tables and figures in the outputs/ directory.
 
 Project Structure
+```
 01_diabetes_cleaning_template/
 |
 |-- README.md
@@ -271,8 +267,9 @@ outputs/
     |-- calibration_data.csv
     |-- final_model_results.csv
     `-- model_performance.csv
-Documentation
+```
 
+Documentation
 The project includes documentation designed to make the workflow traceable and reproducible.
 
 Data Review
@@ -327,13 +324,13 @@ This analysis is intended as a portfolio demonstration rather than a clinical pr
 
 Important limitations include:
 
-Retrospective observational data
-Potential selection and measurement bias
-Class imbalance between outcome categories
-Moderate model discrimination
-No external validation cohort
-No prospective validation
-Statistical association does not imply causation
+-Retrospective observational data
+-Potential selection and measurement bias
+-Class imbalance between outcome categories
+-Moderate model discrimination
+-No external validation cohort
+-No prospective validation
+-Statistical association does not imply causation
 
 These limitations should be considered before interpreting the model for clinical decision-making.
 
@@ -345,16 +342,15 @@ Import -> Clean -> Validate -> Document -> Analyze -> Visualize -> Report
 
 The emphasis is on:
 
-Data quality
-Traceability
-Reproducibility
-Documentation
-Statistical interpretation
-Structured clinical data workflows
-Author
+-Data quality
+-Traceability
+-Reproducibility
+-Documentation
+-Statistical interpretation
+-Structured clinical data workflows
 
+Author
 Lara Pugnaloni
 
 Biochemistry  | Clinical Data | Data Quality | Clinical Research
-
 GitHub - LaraPug
