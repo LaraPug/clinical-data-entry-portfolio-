@@ -1,0 +1,7 @@
+Metric,Value
+Accuracy,61.93
+Sensitivity,42.5
+Specificity,78.54
+PPV,62.87
+NPV,61.51
+AUC,65.24

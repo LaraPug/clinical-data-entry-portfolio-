@@ -1,0 +1,9 @@
+variable,issue,missing_percentage,action
+weight,96.86% missing; values recorded as weight ranges,96.86,Retain; preserve NA; no imputation
+medical_specialty,49.08% missing; multiple specialty categories observed,49.08,Retain; preserve NA
+payer_code,39.56% missing; multiple payer codes observed,39.56,Retain; preserve NA; preserve coded values
+race,2.23% missing,2.23,Retain; preserve NA
+diag_1,0.02% missing,0.02,Retain; preserve NA
+diag_2,0.35% missing,0.35,Retain; preserve NA
+diag_3,1.40% missing,1.4,Retain; preserve NA
+gender,3 records classified as Unknown/Invalid,0,Review; flag Unknown/Invalid; no automatic removal

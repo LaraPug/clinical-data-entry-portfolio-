@@ -1,0 +1,9 @@
+check,invalid_records
+time_in_hospital >= 1,0
+num_lab_procedures >= 1,0
+num_procedures >= 0,0
+num_medications >= 1,0
+number_outpatient >= 0,0
+number_emergency >= 0,0
+number_inpatient >= 0,0
+number_diagnoses >= 1,0
