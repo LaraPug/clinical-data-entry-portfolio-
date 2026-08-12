@@ -188,17 +188,17 @@ The selected classification threshold produced higher specificity than sensitivi
 
 Model Visualizations
 ROC Curve
-![ROC Curve](../../outputs/figures/roc_curve_final_model.png)
+![ROC Curve](https://raw.githubusercontent.com/LaraPug/clinical-data-entry-portfolio-/main/outputs/figures/roc_curve_final_model.png)
 The ROC curve evaluates model discrimination across different classification thresholds.
 
 AUC = 0.6524
 
 Forest Plot - Odds Ratios
-![Forest Plot](../../outputs/figures/forest_plot_final_model.png)
+![Forest Plot](https://raw.githubusercontent.com/LaraPug/clinical-data-entry-portfolio-/main/outputs/figures/forest_plot_final_model.png)
 The forest plot summarizes the estimated odds ratios and 95% confidence intervals for predictors included in the final logistic regression model.
 
 Calibration Plot
-![Calibration Plot](../../outputs/figures/calibration_plot_final_model.png)
+![Calibration Plot](https://raw.githubusercontent.com/LaraPug/clinical-data-entry-portfolio-/main/outputs/figures/calibration_plot_final_model.png)
 The calibration plot compares predicted probabilities with observed readmission rates across probability groups.
 
 The model showed generally reasonable agreement between predicted and observed probabilities, although some deviation was present at the lower and upper probability ranges.
@@ -275,27 +275,19 @@ Documentation
 The project includes documentation designed to make the workflow traceable and reproducible.
 
 Data Review
-
 data_review_notes.md
-
 Initial assessment of dataset structure, distributions and data quality observations.
 
 Cleaning Decisions
-
 cleaning_decisions.csv
-
 Documents the main cleaning and standardization decisions.
 
 Cleaning Log
-
 cleaning_log.md
-
 Records the main data processing steps.
 
 Data Validation Plan
-
 data_validation_plan.md
-
 Defines validation checks used to assess data quality and consistency.
 
 Skills Demonstrated
