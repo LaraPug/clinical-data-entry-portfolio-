@@ -301,7 +301,7 @@ Defines validation checks used to assess data quality and consistency.
 - Duplicate detection
 - Categorical and numerical QC
 - Documentation of cleaning decisions
-- 
+  
 ### Statistical Analysis
 - Logistic regression
 - Odds ratios
@@ -312,7 +312,7 @@ Defines validation checks used to assess data quality and consistency.
 - Sensitivity and specificity
 - Predictive values
 - Calibration assessment
-- 
+  
 ### Technical Skills
 - R
 - tidyverse
