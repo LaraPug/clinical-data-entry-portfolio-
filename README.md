@@ -96,7 +96,7 @@ Model Evaluation
         ↓
 Visualization & Reporting
 ```
-###Key Activities
+### Key Activities
 - Imported and structurally assessed 101,766 clinical encounters
 - Identified 71,518 unique patients
 - Standardized missing values
@@ -111,7 +111,7 @@ Visualization & Reporting
 - Generated reproducible analytical tables and figures
 - Version-controlled the workflow using Git and GitHub
 
-###Key Data Quality Results
+### Key Data Quality Results
 | Quality Check             |      Result |
 | ------------------------- | ----------: |
 | Clinical encounters       | **101,766** |
@@ -123,7 +123,7 @@ Visualization & Reporting
 
 Highly incomplete variables were documented and evaluated rather than automatically imputed.
 
-###Statistical Model Results
+### Statistical Model Results
 A multivariable logistic regression model was developed to investigate factors associated with hospital readmission.
 | Performance Metric |     Result |
 | ------------------ | ---------: |
@@ -142,7 +142,7 @@ Prior inpatient utilization showed a strong association with readmission:
 | 3+                     |  **3.756** | 3.545–3.979 |
 These findings represent observational associations from a retrospective dataset and should not be interpreted as causal effects.
 
-###Visual Outputs
+### Visual Outputs
 ROC Curve
 The ROC curve evaluates model discrimination across different classification thresholds.
 AUC = 0.6524
@@ -153,7 +153,7 @@ The forest plot summarizes estimated odds ratios and 95% confidence intervals fo
 Calibration Plot
 The calibration plot compares predicted probabilities with observed readmission rates across probability groups.
 
-##Complete Diabetes Project
+## Complete Diabetes Project
 
 → View the complete Diabetes Clinical Data project
 
@@ -197,7 +197,7 @@ clinical-data-entry-portfolio/
 │
 └── README.md
 ```
-##Reproducibility & Documentation
+## Reproducibility & Documentation
 
 The projects in this repository are designed around principles of:
 
@@ -233,7 +233,7 @@ The portfolio emphasizes that clinical data analysis is not only about producing
 The workflow also addresses:
 Data → Quality → Validation → Documentation → Analysis → Interpretation
 ---
-###Examples of quality procedures implemented include:
+### Examples of quality procedures implemented include:
 
 - Missingness assessment
 - Identifier validation
@@ -247,7 +247,7 @@ Data → Quality → Validation → Documentation → Analysis → Interpretatio
 This approach reflects the importance of data integrity and traceability in clinical research workflows.
 
 ---
-###Limitations
+### Limitations
 
 The analytical projects in this repository are intended for portfolio and educational purposes, not for clinical decision-making.
 
@@ -271,9 +271,9 @@ I am particularly interested in opportunities involving:
 - Clinical Research Operations
 - Biomedical Data Analysis
 
-###I am especially interested in roles where my background in Biochemistry can be combined with structured clinical data workflows, quality control, and analytical tools.
+### I am especially interested in roles where my background in Biochemistry can be combined with structured clinical data workflows, quality control, and analytical tools.
 
-##Contact
+## Contact
 
 Biochemistry | Clinical Data | Data Quality | Clinical Research
 
