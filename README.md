@@ -96,7 +96,7 @@ Model Evaluation
         ↓
 Visualization & Reporting
 ```
-Key Activities
+###Key Activities
 - Imported and structurally assessed 101,766 clinical encounters
 - Identified 71,518 unique patients
 - Standardized missing values
@@ -111,7 +111,7 @@ Key Activities
 - Generated reproducible analytical tables and figures
 - Version-controlled the workflow using Git and GitHub
 
-Key Data Quality Results
+###Key Data Quality Results
 | Quality Check             |      Result |
 | ------------------------- | ----------: |
 | Clinical encounters       | **101,766** |
@@ -123,7 +123,7 @@ Key Data Quality Results
 
 Highly incomplete variables were documented and evaluated rather than automatically imputed.
 
-Statistical Model Results
+###Statistical Model Results
 A multivariable logistic regression model was developed to investigate factors associated with hospital readmission.
 | Performance Metric |     Result |
 | ------------------ | ---------: |
@@ -133,6 +133,7 @@ A multivariable logistic regression model was developed to investigate factors a
 | Specificity        | **78.54%** |
 | PPV                | **62.87%** |
 | NPV                | **61.51%** |
+
 Prior inpatient utilization showed a strong association with readmission:
 | Prior Inpatient Visits | Odds Ratio |      95% CI |
 | ---------------------- | ---------: | ----------: |
@@ -140,22 +141,19 @@ Prior inpatient utilization showed a strong association with readmission:
 | 2                      |  **2.566** | 2.439–2.699 |
 | 3+                     |  **3.756** | 3.545–3.979 |
 These findings represent observational associations from a retrospective dataset and should not be interpreted as causal effects.
-Visual Outputs
+
+###Visual Outputs
 ROC Curve
-
 The ROC curve evaluates model discrimination across different classification thresholds.
-
 AUC = 0.6524
 
 Forest Plot — Odds Ratios
-
 The forest plot summarizes estimated odds ratios and 95% confidence intervals for predictors included in the final logistic regression model.
 
 Calibration Plot
-
 The calibration plot compares predicted probabilities with observed readmission rates across probability groups.
 
-Complete Diabetes Project
+##Complete Diabetes Project
 
 → View the complete Diabetes Clinical Data project
 
@@ -199,7 +197,7 @@ clinical-data-entry-portfolio/
 │
 └── README.md
 ```
-Reproducibility & Documentation
+##Reproducibility & Documentation
 
 The projects in this repository are designed around principles of:
 
@@ -235,7 +233,7 @@ The portfolio emphasizes that clinical data analysis is not only about producing
 The workflow also addresses:
 Data → Quality → Validation → Documentation → Analysis → Interpretation
 ---
-Examples of quality procedures implemented include:
+###Examples of quality procedures implemented include:
 
 - Missingness assessment
 - Identifier validation
@@ -249,7 +247,7 @@ Examples of quality procedures implemented include:
 This approach reflects the importance of data integrity and traceability in clinical research workflows.
 
 ---
-Limitations
+###Limitations
 
 The analytical projects in this repository are intended for portfolio and educational purposes, not for clinical decision-making.
 
@@ -273,13 +271,14 @@ I am particularly interested in opportunities involving:
 - Clinical Research Operations
 - Biomedical Data Analysis
 
-I am especially interested in roles where my background in Biochemistry can be combined with structured clinical data workflows, quality control, and analytical tools.
+###I am especially interested in roles where my background in Biochemistry can be combined with structured clinical data workflows, quality control, and analytical tools.
 
-Contact
-Lara Pugnaloni
+##Contact
 
 Biochemistry | Clinical Data | Data Quality | Clinical Research
 
 LinkedIn: https://www.linkedin.com/in/lara-pugnaloni-aa813329a/
 
 GitHub: LaraPug
+
+Lara Pugnaloni
