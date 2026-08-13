@@ -211,6 +211,7 @@ The projects in this repository are designed around principles of:
 - Transparent analytical workflows
 
 The Diabetes project separates the workflow into sequential R scripts so that individual processing stages can be reviewed independently.
+```text
 01 Import Data
       ↓
 02 Data Cleaning
@@ -224,15 +225,16 @@ The Diabetes project separates the workflow into sequential R scripts so that in
 06 Visualization
       ↓
 07 Statistical Analysis
+```
 
 Each stage produces documented outputs that can be reviewed and reproduced.
-
+---
 Data Quality Approach
 The portfolio emphasizes that clinical data analysis is not only about producing statistical results.
-
+---
 The workflow also addresses:
 Data → Quality → Validation → Documentation → Analysis → Interpretation
-
+---
 Examples of quality procedures implemented include:
 
 - Missingness assessment
@@ -246,7 +248,7 @@ Examples of quality procedures implemented include:
 - Quality control summaries
 
 This approach reflects the importance of data integrity and traceability in clinical research workflows.
-
+---
 Limitations
 The analytical projects in this repository are intended for portfolio and educational purposes, not for clinical decision-making.
 
