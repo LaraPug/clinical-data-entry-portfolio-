@@ -225,12 +225,14 @@ The Diabetes project separates the workflow into sequential R scripts so that in
 07 Statistical Analysis
 ```
 
-Each stage produces documented outputs that can be reviewed and reproduced.
--
-Data Quality Approach
+### Each stage produces documented outputs that can be reviewed and reproduced.
+
+###Data Quality Approach
+
 The portfolio emphasizes that clinical data analysis is not only about producing statistical results.
--
-The workflow also addresses:
+
+###The workflow also addresses:
+
 Data → Quality → Validation → Documentation → Analysis → Interpretation
 ---
 ### Examples of quality procedures implemented include:
