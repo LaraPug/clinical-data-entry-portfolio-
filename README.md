@@ -8,7 +8,7 @@ This repository contains reproducible projects developed using publicly availabl
 
 ## About Me
 
-I am a **Biochemistry graduate** with a background in biomedical research, data analysis, and scientific documentation.
+I am a **Biochemistry about to graduate** with a background in biomedical research, data analysis, and scientific documentation.
 
 I am building practical experience in **Clinical Data Management and Clinical Research**, combining my scientific background with computational tools and structured data workflows.
 
@@ -97,19 +97,19 @@ Model Evaluation
 Visualization & Reporting
 ```
 Key Activities
-Imported and structurally assessed 101,766 clinical encounters
-Identified 71,518 unique patients
-Standardized missing values
-Assessed variable-level missingness
-Performed identifier and duplicate checks
-Conducted categorical and numerical quality control
-Evaluated invalid records
-Documented cleaning decisions
-Created a reproducible data cleaning pipeline in R
-Developed a multivariable logistic regression model
-Evaluated model discrimination and calibration
-Generated reproducible analytical tables and figures
-Version-controlled the workflow using Git and GitHub
+- Imported and structurally assessed 101,766 clinical encounters
+- Identified 71,518 unique patients
+- Standardized missing values
+- Assessed variable-level missingness
+- Performed identifier and duplicate checks
+- Conducted categorical and numerical quality control
+- Evaluated invalid records
+- Documented cleaning decisions
+- Created a reproducible data cleaning pipeline in R
+- Developed a multivariable logistic regression model
+- Evaluated model discrimination and calibration
+- Generated reproducible analytical tables and figures
+- Version-controlled the workflow using Git and GitHub
 
 Key Data Quality Results
 | Quality Check             |      Result |
@@ -203,12 +203,12 @@ Reproducibility & Documentation
 
 The projects in this repository are designed around principles of:
 
-Traceability
-Reproducibility
-Data quality
-Structured documentation
-Version control
-Transparent analytical workflows
+- Traceability
+- Reproducibility
+- Data quality
+- Structured documentation
+- Version control
+- Transparent analytical workflows
 
 The Diabetes project separates the workflow into sequential R scripts so that individual processing stages can be reviewed independently.
 01 Import Data
@@ -228,11 +228,9 @@ The Diabetes project separates the workflow into sequential R scripts so that in
 Each stage produces documented outputs that can be reviewed and reproduced.
 
 Data Quality Approach
-
 The portfolio emphasizes that clinical data analysis is not only about producing statistical results.
 
 The workflow also addresses:
-
 Data → Quality → Validation → Documentation → Analysis → Interpretation
 
 Examples of quality procedures implemented include:
@@ -253,7 +251,6 @@ Limitations
 The analytical projects in this repository are intended for portfolio and educational purposes, not for clinical decision-making.
 
 Depending on the dataset and analysis, limitations may include:
-
 - Retrospective observational data
 - Potential selection bias
 - Potential measurement bias
