@@ -215,7 +215,7 @@ The analysis is organized into sequential R scripts:
 | `06_visualization.R`        | Generate analytical visualizations    |
 | `07_statistical_analysis.R` | Statistical modeling and evaluation   |
 
-Run the statistical analysis
+### Run the statistical analysis
 
 From the repository root:
 
@@ -353,8 +353,11 @@ The emphasis is on:
 - Statistical interpretation
 - Structured clinical data workflows
 
-Author
+## Author
 Lara Pugnaloni
 
 Biochemistry  | Clinical Data | Data Quality | Clinical Research
+
+Linkedin: https://www.linkedin.com/in/lara-pugnaloni-aa813329a/
+
 GitHub - LaraPug
