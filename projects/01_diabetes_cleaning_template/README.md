@@ -276,18 +276,22 @@ The project includes documentation designed to make the workflow traceable and r
 
 ### Data Review
 data_review_notes.md
+
 Initial assessment of dataset structure, distributions and data quality observations.
 
 ### Cleaning Decisions
 cleaning_decisions.csv
+
 Documents the main cleaning and standardization decisions.
 
 ### Cleaning Log
 cleaning_log.md
+
 Records the main data processing steps.
 
 ### Data Validation Plan
 data_validation_plan.md
+
 Defines validation checks used to assess data quality and consistency.
 
 ### Skills Demonstrated
@@ -319,7 +323,6 @@ Defines validation checks used to assess data quality and consistency.
 - ggplot2
 - Reproducible scripting
 - CSV data processing
-- Git
 - GitHub
 - Version-controlled workflows
 
