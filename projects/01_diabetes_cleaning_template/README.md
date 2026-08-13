@@ -79,7 +79,7 @@ VISUALIZATION & REPORTING
 ```
 Each stage was implemented using independent R scripts so the workflow can be reviewed, reproduced and audited.
 
-Data Quality & Cleaning
+### Data Quality & Cleaning
 Missing Data
 
 The original dataset uses "?" to represent missing values.
@@ -95,9 +95,10 @@ These values were standardized to NA for downstream analysis.
 
 
 Highly incomplete variables were documented rather than automatically imputed.
+
 This approach preserves transparency and prevents introducing unsupported assumptions into the dataset.
 
-Identifier Quality Control
+### Identifier Quality Control
 Identifier integrity was assessed as part of the quality control workflow.
 
 | QC check                |  Result |
@@ -110,7 +111,8 @@ Identifier integrity was assessed as part of the quality control workflow.
 
 A distinction was maintained between encounter-level records and patient-level identifiers, since a single patient can have multiple hospital encounters.
 
-Additional Quality Control
+### Additional Quality Control
+
 The project also includes:
 
 - Variable class validation
@@ -125,7 +127,7 @@ The project also includes:
 
 A multivariable logistic regression model was developed to evaluate factors associated with hospital readmission.
 
-Outcome
+### Outcome
 The original readmission variable was transformed into a binary outcome:
 
 | Original outcome | Binary outcome |
@@ -136,7 +138,7 @@ The original readmission variable was transformed into a binary outcome:
 
 The resulting binary outcome was used for the statistical model.
 
-Predictors
+### Predictors
 The final model included:
 
 - Age
@@ -165,7 +167,7 @@ Patients in the 3+ prior inpatient visits category had approximately 3.76 times 
 
 Other statistically significant predictors included emergency visits, outpatient visits, number of diagnoses, age, length of hospitalization, medication count and laboratory procedures.
 
-Interpretation: These are observational associations from a retrospective dataset and should not be interpreted as causal effects.
+### Interpretation: These are observational associations from a retrospective dataset and should not be interpreted as causal effects.
 
 Model Performance
 | Metric      |     Result |
@@ -182,7 +184,7 @@ The model demonstrated moderate discrimination, with an AUC of 0.6524.
 
 The selected classification threshold produced higher specificity than sensitivity, meaning the model was better at identifying patients who were not readmitted than patients who were readmitted.
 
-Model Visualizations
+## Model Visualizations
 ROC Curve
 ![ROC Curve](https://github.com/LaraPug/clinical-data-entry-portfolio-/raw/refs/heads/main/outputs/figures/roc_curve_final_model.png)
 The ROC curve evaluates model discrimination across different classification thresholds.
@@ -199,7 +201,7 @@ The calibration plot compares predicted probabilities with observed readmission 
 
 The model showed generally reasonable agreement between predicted and observed probabilities, although some deviation was present at the lower and upper probability ranges.
 
-Reproducible Analysis Pipeline
+### Reproducible Analysis Pipeline
 
 The analysis is organized into sequential R scripts:
 
@@ -269,26 +271,26 @@ outputs/
     `-- model_performance.csv
 ```
 
-Documentation
+### Documentation
 The project includes documentation designed to make the workflow traceable and reproducible.
 
-Data Review
+### Data Review
 data_review_notes.md
 Initial assessment of dataset structure, distributions and data quality observations.
 
-Cleaning Decisions
+### Cleaning Decisions
 cleaning_decisions.csv
 Documents the main cleaning and standardization decisions.
 
-Cleaning Log
+### Cleaning Log
 cleaning_log.md
 Records the main data processing steps.
 
-Data Validation Plan
+### Data Validation Plan
 data_validation_plan.md
 Defines validation checks used to assess data quality and consistency.
 
-Skills Demonstrated
+### Skills Demonstrated
 - Clinical Data
 - Clinical dataset handling
 - Data cleaning
@@ -299,7 +301,8 @@ Skills Demonstrated
 - Duplicate detection
 - Categorical and numerical QC
 - Documentation of cleaning decisions
-Statistical Analysis
+- 
+### Statistical Analysis
 - Logistic regression
 - Odds ratios
 - Confidence intervals
@@ -309,7 +312,8 @@ Statistical Analysis
 - Sensitivity and specificity
 - Predictive values
 - Calibration assessment
-Technical Skills
+- 
+### Technical Skills
 - R
 - tidyverse
 - ggplot2
@@ -319,10 +323,10 @@ Technical Skills
 - GitHub
 - Version-controlled workflows
 
-Limitations
+## Limitations
 This analysis is intended as a portfolio demonstration rather than a clinical prediction tool.
 
-Important limitations include:
+### Important limitations include:
 
 - Retrospective observational data
 - Potential selection and measurement bias
@@ -334,7 +338,7 @@ Important limitations include:
 
 These limitations should be considered before interpreting the model for clinical decision-making.
 
-Portfolio Objective
+### Portfolio Objective
 
 This project demonstrates the ability to manage a clinical dataset through a structured workflow resembling real-world clinical data processes:
 
